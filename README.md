@@ -3,6 +3,16 @@ Python class for making WeatherKit requests
 
 [WeatherKit REST API Documentation](https://developer.apple.com/documentation/weatherkitrestapi)
 
+## Requires Python Packages
+* cryptography
+* PyJWT
+* requests
+
+## Requires Environment Variables
+* WeatherKitTeamId
+* WeatherKitAppId
+* WeatherKitKeyId
+* WeatherKitKeyPath
 ## Example
 ```
 from weatherkit import WeatherKit
